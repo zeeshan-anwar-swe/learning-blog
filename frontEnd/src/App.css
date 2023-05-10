@@ -1,0 +1,16 @@
+.navstyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1365px;
+  height: 50px;
+  background: #dbdbdb;
+}
+
+.urlLinks {
+  text-decoration: none;
+  color: #888;
+  display: flex;
+  list-style: none;
+}
+

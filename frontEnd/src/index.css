@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #213547;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  margin: 30px;
+  font-weight: 500;
+  color: #242424;
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+li:hover {
+  background: #213547;
+}
+
+li:hover a {
+  color: white;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.article {
+  text-align: left;
+}
+
+.articleBody {
+  margin: auto;
+  width: 800px;
+  height: 500px;
+}
+
+.articleBody a {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    #213547,
+    rgba(0, 0, 0, 0)
+  );
+
+  width: 800px;
+}
